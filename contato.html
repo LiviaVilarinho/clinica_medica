@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Médica Clinicale</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <img src="img/principal.png" width="200" height="100" >
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="principal.html" target="_top">Página Principal </a></li>
+                <li><a href="sobre.html" target="_top">Sobre a Clínica </a></li>
+                <li><a href="horarioatendimento.html" target="_top">Horário de Atendimento</a></li>
+                <li><a href="contato.html" target="_top">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="img/contato.jpg" alt="Imagem da tela de contato" width="500" height="200" class="img">
+            </div>
+    
+            <div class="content">
+                <h1 class="titulo2">Contato</h1>
+                <br>
+                <form name="cadastro" autocomplete="on" onsubmit="alert('Formulário enviado');" target="_blank" >
+                    <label>Nome: </label><input type="text" /><br>
+                    <label>E-mail: </label><input type="email" /><br>
+                    <label>Assunto: </label><input type="text" /><br>
+                    <label>Mensagem: </label>
+                    <textarea rows="5" cols="50" name="message"></textarea>
+                    <br>
+                    <br>
+                    <button id="enviar" type="submit">Enviar</button> <button id="limpar" type="reset">Limpar</button>
+
+                
+            </form>
+            </div>
+    
+            <div class="footer">
+                <p><b><i>WHATSAPP: (24) 99999-9999</p></b></i>
+                <p><b><i>Nosso endereço: Av. dos Médicos, 99 - Centro - Valença/RJ</p></b></i>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
